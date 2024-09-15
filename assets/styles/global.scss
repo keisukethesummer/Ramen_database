@@ -1,0 +1,88 @@
+
+ ::v-deep .v-application--wrap {
+    min-height: fit-content;
+  }
+
+    >>>.v-application--wrap {
+    min-height: 0vh !important;
+  }
+
+  >>>.v-application--wrap {
+  min-height: unset;
+}
+
+
+
+.add_shop_title {
+  text-align: center;
+  font-size: 25px;
+}
+
+.add_shop_form_container {
+  width: 90%;
+  margin: auto;
+}
+
+#required {
+  width: 50px;
+  background: red;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 15%;
+}
+
+/* 営業時間セクション */
+.add_shop_opening_hours_container {}
+
+/* 曜日タブコンテナ */
+.add_shop_opening_hours_day_tabs_container {}
+
+/* 各曜日タブ */
+.add_shop_opening_hours_day_tab {
+  min-width: 20px !important;
+  background-color: pink;
+}
+
+.add_shop_opening_hours {
+  display: flex;
+  height: 60px;
+  // margin-top: 5px;
+  // background-color: pink;
+  justify-content: center;
+}
+/* ":"と"〜" */
+.add_shop_opening_hours span {
+  font-weight: bold;
+  margin: auto 0;
+}
+
+.add_shop_opening_hours_open_hour {
+  // background-color: red;
+  // padding-top: 20px !important;
+}
+
+// .add_shop_opening_hours_day_tab_buttons {
+//   display: flex;
+//   list-style: none;
+//   padding: 0;
+//   margin: 0;
+// }
+
+// .add_shop_opening_hours_day_tab_button {
+//   border-right: 1px solid #eee;
+//   text-align: center;
+//   width: 50%;
+//   list-style-type: none;
+//   background: #f8f8f8
+// }
+
+// .opening_hours_day_tab_button:last-child {
+//   margin-right: 0; /* 最後のアイテムの右マージンを削除 */
+// }
+
+.add_btn {
+  position: fixed;
+  background-color: red;
+  height: 30px;
+}
